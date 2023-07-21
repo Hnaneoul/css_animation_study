@@ -16,13 +16,20 @@
         #v_img {
             position:absolute; right:100px; bottom:-100px;
         }
+        
         #v_btn {
             position:absolute; left:0; bottom:20px; width:100%;
             display:flex; justify-content: center;
         }
+        #v_btn a:hover{
+            transform: translateY(-20px);
+            
+
+        }
         #v_btn a {
             width:50px; margin:0 10px; 
             display:flex; align-items:flex-end;
+            transition:all 0.5s ease;
         }
         #v_btn a img {width:100%;}
     </style>
@@ -46,7 +53,7 @@
             <img src="coffee_images/starbucks1.png" alt="" id="starbucks_img">
         </div>
         <div id="v_btn">
-            <a href="#"><img src="coffee_images/starbucks1.png" alt=""></a>
+            <a href="https://www.starbucks.co.kr/index.do" target="_blank"><img src="coffee_images/starbucks1.png" alt=""></a>
             <a href="#"><img src="coffee_images/starbucks2.png" alt=""></a>
             <a href="#"><img src="coffee_images/starbucks3.png" alt=""></a>
         </div>
