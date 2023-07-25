@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Document</title>
+    <style>
+        /* #bg{
+            height: 500px;
+            background: linear-gradient(-45deg, red, aqua , green , pink);
+            background-size:400%;
+            animation: bg 5s ease infinite alternate;
+        } */
+
+        /* #btn1{background: linear-gradient(50deg, black  ,gray ,lightyellow,white); background-size: 400%; transition: all 0.7s linear; padding:20px; text-align: center; width: 100px;}
+        #btn1:hover{background-size: 100%; color: white;} */
+
+        #btn2{ width: 100px; height: 100px;
+            background:radial-gradient(circle, blue, lightblue, white);
+            background-size: 200%;
+            text-align: center; line-height: 100px;
+            border-radius: 50%;  transition: all 0.5s;
+
+        }
+        #btn2:hover{background-size:100%; color: white;}
+
+        @keyframes bg{
+            0%{background-position:0 0; transform: rotate(0);}
+            100%{background-position:100% 50%; transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="btn1">click here!</div> -->
+    <div id="btn2">click here!</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Document</title>
+    <style>
+        h1{
+            font-weight: 800;
+            font-size: 5rem;
+            text-transform: uppercase; /*대문자로 바꿔주는*/
+            background: linear-gradient(90deg, lightgreen, pink, coral, skyblue, lime, lightgreen);
+            -webkit-background-clip:text;
+            -webkit-text-fill-color: transparent;
+            background-size: 400%;
+            animation: text_bg 10s linear infinite alternate;
+        }
+        @keyframes text_bg{
+            0%{background-position: 0;}
+            100%{background-position: 400%;}
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        text gradient animation
+    </h1>
+</body>
+</html>
